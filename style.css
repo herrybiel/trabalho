@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    background-image: url("ft2.jpg");
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.icon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.icon h2 {
+    text-align: center;
+    font-family: 'Sono', sans-serif;
+    font-style: italic;
+}
+
+.icon1 {
+    background-image: url("./icon1.png");
+}
+
+.icon2 {
+    background-image: url("./icon2.png");
+
+}
+
+.icon3 {
+    background-image: url("./icon3.png");
+
+}
+
+.icon4 {
+    background-image: url("./icon4.png");
+
+}
+
+.icon5 {
+    background-image: url("./icon5.png");
+
+}
+
+.icon6 {
+    background-image: url("./icon6.png");
+    ;
+}
+
+.icon:hover {
+    transform: scale(0.9);
+
+}
+
+main {
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    flex-wrap: wrap;
+    gap: 400px;
+    row-gap: 50px;
+    background-position: center;
+}
+
+body {
+    background-image: url("back2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info {
+    text-align: center;
+    font-family: 'Sono', sans-serif;
+    font-style: italic;
+    color: aliceblue;
+    font-size: 50%;
+}
+
+.roda {
+    color: aliceblue;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
