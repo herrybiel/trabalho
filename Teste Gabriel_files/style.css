@@ -1,0 +1,19 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+header{
+    background-image: url("ft2.jpg");
+    height: 90px;
+
+}
+.titulo{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 25px;
+}
